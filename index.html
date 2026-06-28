@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Xavi Rubio - research-oriented data and AI engineer focused on reliable ML systems, RAG, uncertainty, and statistical modelling."
+    >
+    <meta name="theme-color" content="#f7f8f5">
+    <title>Xavi Rubio - Data and AI Engineer</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Xavi Rubio home">
+        <span class="brand-mark">XR</span>
+        <span>Xavi Rubio</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="intro section-shell">
+        <div class="intro-copy">
+          <p class="eyebrow">Research data scientist / research software engineer</p>
+          <h1>Xavi Rubio</h1>
+          <p class="lede">
+            Data scientist and research software engineer working on reliable ML, statistical
+            pipelines, and AI systems that can be evaluated. My path has moved through software,
+            IoT analytics, biomedical research, and finance, and I am now building toward deeper
+            statistical work at the University of Geneva.
+          </p>
+          <div class="intro-actions" aria-label="Primary links">
+            <a class="button primary" href="#work">View technical work</a>
+            <a class="button secondary" href="https://github.com/xavircode">GitHub</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/xavirubio">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="profile-panel" aria-label="Profile snapshot">
+          <img
+            class="profile-photo"
+            src="https://avatars.githubusercontent.com/u/104133108?v=4"
+            alt="Xavi Rubio GitHub profile image"
+          >
+          <dl class="profile-facts">
+            <div>
+              <dt>Focus</dt>
+              <dd>Reliable ML systems, statistical modelling, and evaluation</dd>
+            </div>
+            <div>
+              <dt>Experience</dt>
+              <dd>Finance, IoT analytics, biomedical research, and data software</dd>
+            </div>
+            <div>
+              <dt>Education</dt>
+              <dd>MSc Statistics at the University of Geneva and BSc Applied Data Science</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="about" class="section-shell section-block about-block">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>I am drawn to the part of data science where statistics, software, and real systems meet.</h2>
+        </div>
+
+        <div class="about-layout">
+          <p>
+            I came into data science through applied work rather than toy problems. I worked with
+            chemical-data software, IoT sensor networks, neurological research data, and credit-risk reporting.
+            Those environments taught me that useful ML is rarely just the model. It is the data
+            pipeline, the assumptions, the validation checks, the interface, and the honesty about
+            uncertainty. That is the direction I am taking into statistics and research software.
+          </p>
+          <div class="about-note" aria-label="Personal direction">
+            <p>
+              I like work where the implementation and the reasoning have to hold together. A good
+              project should be easy to inspect, possible to reproduce, and honest about what is known.
+            </p>
+            <p>
+              The projects I want to keep building sit between statistical thinking and practical
+              systems. I use them to become stronger in software development while building a deeper
+              foundation in research and statistics, so I can approach new technologies with enough
+              breadth to understand the whole system and enough depth to apply them carefully.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section-shell section-block">
+        <div class="section-heading">
+          <p class="eyebrow">Project portfolio</p>
+          <h2>Technical work</h2>
+          <p>
+            A compact set of projects ordered by technical scope, maturity, and relevance to my
+            current research and engineering direction.
+          </p>
+        </div>
+
+        <div class="featured-grid">
+          <article class="project-card">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Backend AI</span>
+              </div>
+              <h3>Local RAG API</h3>
+              <p>
+                Local-first document QA backend with ingestion, hybrid dense/BM25 retrieval, reranking,
+                Ollama generation, citation filtering, workspace isolation, and evaluation.
+              </p>
+              <ul class="compact-list">
+                <li>FastAPI service with Docker, Qdrant option, CI, docs, tests, and security notes.</li>
+                <li>Published evaluation: document recall 1.0, MRR 0.9844, citation accuracy 0.8871.</li>
+              </ul>
+              <div class="tag-row" aria-label="Local RAG API tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>RAG</span>
+                <span>BM25</span>
+                <span>Docker</span>
+              </div>
+              <a class="text-link" href="https://github.com/xavircode/local-rag-api">Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Thesis</span>
+              </div>
+              <h3>Financial Crisis Index</h3>
+              <p>
+                Reproducible systemic-risk monitoring pipeline for the US, Germany, Spain, and the UK,
+                built from open macro-financial, market, leverage, and uncertainty indicators.
+              </p>
+              <ul class="compact-list">
+                <li>Equal-weight and PCA indices with validation against historical stress windows.</li>
+                <li>ETL, harmonised panels, block sub-indices, figures, and cross-country summaries.</li>
+              </ul>
+              <div class="tag-row" aria-label="Financial Crisis Index tags">
+                <span>Python</span>
+                <span>PCA</span>
+                <span>ETL</span>
+                <span>Macro-finance</span>
+              </div>
+              <a class="text-link" href="https://github.com/xavircode/FCI">Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>NLP application</span>
+              </div>
+              <h3>NLP Chatbot</h3>
+              <p>
+                FastAPI chatbot application combining sentence-transformer embeddings, calibrated
+                logistic regression intent classification, templates, Docker, and a retraining endpoint.
+              </p>
+              <ul class="compact-list">
+                <li>Structured inference pipeline with serialized models and configurable thresholds.</li>
+                <li>Frontend pages served with FastAPI and Jinja2 templates.</li>
+              </ul>
+              <div class="tag-row" aria-label="NLP Chatbot tags">
+                <span>FastAPI</span>
+                <span>Sentence Transformers</span>
+                <span>scikit-learn</span>
+                <span>Docker</span>
+              </div>
+              <a class="text-link" href="https://github.com/xavircode/NLPChatbot">Repository</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section-shell section-block">
+        <div class="section-heading">
+          <p class="eyebrow">Background</p>
+          <h2>Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <div class="experience-topline">
+              <span class="time">Sep 2025 - Feb 2026</span>
+              <div>
+                <h3>Banco Sabadell</h3>
+                <p class="role">Data Science Intern</p>
+              </div>
+            </div>
+            <p>
+              Reworked monthly credit reporting into a weekly workflow, adapting data sources,
+              validation checks, execution logic, and BI visualisations for risk monitoring.
+            </p>
+            <div class="tag-row" aria-label="Banco Sabadell technologies">
+              <span>SAS</span>
+              <span>SQL</span>
+              <span>Credit risk</span>
+              <span>BI reporting</span>
+            </div>
+          </article>
+          <article>
+            <div class="experience-topline">
+              <span class="time">Jul 2022 - Dec 2024</span>
+              <div>
+                <h3>Orpheus</h3>
+                <p class="role">Data Scientist</p>
+              </div>
+            </div>
+            <p>
+              Owned IoT data workflows for thousands of sensors and hundreds of hubs. Built ETL,
+              PostgreSQL/Grafana analytics, backend processing, and regression-based anomaly detection.
+            </p>
+            <div class="tag-row" aria-label="Orpheus technologies">
+              <span>Python</span>
+              <span>PostgreSQL</span>
+              <span>Grafana</span>
+              <span>ETL</span>
+              <span>IoT analytics</span>
+            </div>
+          </article>
+          <article>
+            <div class="experience-topline">
+              <span class="time">Jun 2024 - Nov 2024</span>
+              <div>
+                <h3>Institut de Recerca Sant Pau</h3>
+                <p class="role">Data Science Intern</p>
+              </div>
+            </div>
+            <p>
+              Harmonised neurological research datasets, prepared APOE biomarker data, and supported
+              exploratory and Kaplan-Meier analysis in Python, R, and remote research environments.
+            </p>
+            <div class="tag-row" aria-label="Sant Pau technologies">
+              <span>Python</span>
+              <span>R</span>
+              <span>Kaplan-Meier</span>
+              <span>Research data</span>
+              <span>VNC/Linux</span>
+            </div>
+          </article>
+          <article>
+            <div class="experience-topline">
+              <span class="time">Feb 2021 - Dec 2021</span>
+              <div>
+                <h3>Chemotargets</h3>
+                <p class="role">Software Developer</p>
+              </div>
+            </div>
+            <p>
+              Optimised SQL queries and refactored database schemas, improving ETL runtime and
+              maintainability for data-processing workflows.
+            </p>
+            <div class="tag-row" aria-label="Chemotargets technologies">
+              <span>Python</span>
+              <span>SQL</span>
+              <span>Flask</span>
+              <span>MySQL</span>
+              <span>Angular</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section-shell section-block education-block">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Academic background</h2>
+        </div>
+
+        <div class="education-grid">
+          <article>
+            <dl class="education-details" aria-label="MSc Statistics details">
+              <div>
+                <dt>Period</dt>
+                <dd>2026 -</dd>
+              </div>
+              <div>
+                <dt>Status</dt>
+                <dd>Enrolled</dd>
+              </div>
+            </dl>
+            <h3>MSc Statistics</h3>
+            <p class="education-institution">University of Geneva</p>
+          </article>
+          <article>
+            <dl class="education-details" aria-label="BSc Applied Data Science details">
+              <div>
+                <dt>Period</dt>
+                <dd>2021 - 2026</dd>
+              </div>
+              <div>
+                <dt>Grade</dt>
+                <dd>8.08/10</dd>
+              </div>
+            </dl>
+            <h3>BSc Applied Data Science</h3>
+            <p class="education-institution">Open University of Catalonia</p>
+          </article>
+          <article>
+            <dl class="education-details" aria-label="AAS Computer Science details">
+              <div>
+                <dt>Period</dt>
+                <dd>2019 - 2021</dd>
+              </div>
+              <div>
+                <dt>Grade</dt>
+                <dd>8.12/10</dd>
+              </div>
+            </dl>
+            <h3>AAS Computer Science</h3>
+            <p class="education-institution">Escuelas Universitarias Gimbernat</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section-shell section-block skills-block">
+        <div class="section-heading">
+          <p class="eyebrow">Tooling</p>
+          <h2>Working stack</h2>
+        </div>
+        <div class="skill-columns">
+          <div>
+            <h3>Programming</h3>
+            <p>Python, SQL, R, SAS, Bash, MATLAB, Swift, JavaScript, Go basics.</p>
+          </div>
+          <div>
+            <h3>ML and AI</h3>
+            <p>Regression, anomaly detection, supervised and unsupervised learning, NLP, embeddings, RAG, LLM systems.</p>
+          </div>
+          <div>
+            <h3>Statistics</h3>
+            <p>EDA, Bayesian inference, PCA, survival analysis, calibration, conformal prediction, credit-risk metrics.</p>
+          </div>
+          <div>
+            <h3>Data systems</h3>
+            <p>FastAPI, PostgreSQL, Docker, Git, ETL pipelines, validation checks, Grafana, Linux/VNC, AWS.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-band">
+        <div class="section-shell contact-layout">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Open to research software, data science, and applied AI work.</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:xavi@xavirubio.com">xavi@xavirubio.com</a>
+            <a href="https://github.com/xavircode">github.com/xavircode</a>
+            <a href="https://www.linkedin.com/in/xavirubio">linkedin.com/in/xavirubio</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span data-year></span> Xavi Rubio</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
